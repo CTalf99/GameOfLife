@@ -38,7 +38,7 @@ void GridManager::displayGrid()
     {
         for (int j = 1; j <(cols -1); j++ )
         {
-            if (currGrid[i][j] == true) {std::cout << "* ";}
+            if (currGrid[i][j] == true) {std::cout << "O ";}
             else {std::cout << ". ";}
         }
         std::cout << std::endl;
